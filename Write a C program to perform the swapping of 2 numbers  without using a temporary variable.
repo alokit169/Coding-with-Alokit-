@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Before Swapping ");
+    printf("\n The value of a is : ");
+    scanf("%d",&a);
+    printf("And the value of b is : ");
+    scanf("%d",&b);
+    printf("After swapping");
+    c=a;
+    a=b;
+    b=c;
+    printf(" The value of  a=%d,\n and the value of b=%d",a,b);
+    return 0;
+
+}
